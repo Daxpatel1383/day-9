@@ -1,0 +1,18 @@
+<html>
+<body>
+<h2>Dom Events Example</h2>
+Enter Your Name:<input type="text" id="fname" onchange="up();"><br>
+Enter Your Name:<input type="text" id="lname" onchange="low();">
+<script>
+function up() {
+const x = document.getElementById("fname");
+x.value = x.value.toUpperCase();
+}
+function low() {
+const x = document.getElementById("lname");
+x.value = x.value.toLowerCase();
+}
+</script>		 
+</body>
+
+</html>
